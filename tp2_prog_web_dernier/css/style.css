@@ -1,0 +1,149 @@
+/* Reset some default styles */
+
+
+/* Body styles */
+body{
+    background-image: url("/css/images/bois.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+/* Header styles */
+h1 {
+    color :darkblue;
+
+    color: #333; /* Changer la couleur du texte */
+    background-color: #ffc107; /* Changer la couleur de fond */
+    border: 2px solid #333; /* Changer la couleur de la bordure */
+    border-radius: 8px; /* Arrondir les coins */
+    padding: 20px;
+    margin-bottom: 20px; /* Ajouter une marge en bas */
+}
+
+/* Table header styles */
+th {
+    background-color: #4CAF50; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 10px;
+    border: 2px solid #333; /* Changer la couleur de la bordure */
+}
+
+/* Table cell styles */
+td {
+    padding: 15px;
+    border: 2px solid #333; /* Changer la couleur de la bordure */
+}
+
+/* Game container styles */
+.jeu {
+    margin: 0 auto;
+    background-color: #fff; /* Changer la couleur de fond */
+    padding: 20px;
+    border-radius: 10px; /* Arrondir les coins */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajouter une ombre */
+}
+
+/* Valid pose styles */
+.validePose {
+    background-color: #00bcd4; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 10px;
+}
+
+/* Invalid pose styles */
+.nonValide {
+    background-color: #f44336; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 10px;
+}
+
+/* Non-empty cell styles */
+.nonVide {
+    background-color: #ffeb3b; /* Changer la couleur de fond */
+    padding: 10px;
+
+}
+
+/* Case styles */
+#case {
+    border: 2px solid black; /* Changer la couleur de la bordure */
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Button styles */
+button {
+    border: none;
+    cursor: pointer;
+    color: white; /* Changer la couleur du texte */
+    padding: 10px 20px; /* Ajouter un espacement */
+    border-radius: 5px; /* Arrondir les coins */
+    transition: background-color 0.3s; /* Ajouter une transition fluide */
+}
+button:hover {
+    background-color: #0056b3; /* Changer la couleur de fond au survol */
+}
+
+/* Image styles */
+img {
+    width: 50px;
+}
+
+/* Selected piece styles */
+td:has(.selectPiece) {
+
+    background-image: url("/css/images/brushed-alum.png");
+}
+
+/* Available pieces styles */
+td:has(.piecesDispo) {
+    background-image: url("/css/images/brushed-alum.png");
+}
+
+/* Replay button styles */
+.replay {
+    background-color: #28a745; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 15px 30px; /* Ajouter un espacement */
+    margin: 20px 0; /* Ajouter une marge */
+    border-radius: 8px; /* Arrondir les coins */
+    border: none; /* Supprimer la bordure */
+    cursor: pointer;
+    font-size: 16px; /* Changer la taille de la police */
+    transition: background-color 0.3s; /* Ajouter une transition fluide */
+}
+
+.replay:hover {
+    background-color: #218838; /* Changer la couleur de fond au survol */
+}
+
+/* Black victory styles */
+td:has(.blkVictory) {
+    background-color: #212121; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 10px;
+}
+
+/* White victory styles */
+td:has(.whtVictory) {
+    background-color: #ff9800; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 10px;
+}
+.annuler-btn {
+    background-color: #dc3545; /* Changer la couleur de fond */
+    color: white; /* Changer la couleur du texte */
+    padding: 10px 20px; /* Ajouter un espacement */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Arrondir les coins */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Ajouter une transition fluide */
+}
+
+.annuler-btn:hover {
+    background-color: #c82333; /* Changer la couleur de fond au survol */
+}
