@@ -1,4 +1,4 @@
-Quantik - Le Jeu de Stratégie 
+# Quantik - Le Jeu de Stratégie 
 Bienvenue sur le dépôt GitHub de Quantik, un jeu de stratégie captivant conçu pour mettre à l'épreuve votre logique et votre capacité à anticiper les mouvements de votre adversaire.
 
 Technologies Utilisées Quantik a été développé en utilisant une combinaison de technologies web pour assurer une expérience utilisateur fluide et interactive :
